@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0f1c;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 20px 0;
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        h1 span {
+            color: #00d4ff;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            background-color: #152238;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+            padding: 20px;
+            width: 300px;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card i {
+            font-size: 2rem;
+            color: #00d4ff;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .service-card h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .service-card p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #a0aec0;
+        }
+
+        .learn-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00d4ff;
+            color: #152238;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .learn-more:hover {
+            background-color: #00a3cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>My <span>Services</span></h1>
+    <div class="services">
+        <div class="service-card">
+            <i>&lt;/&gt;</i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, in veniam ab voluptatem maxime minima.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="service-card">
+            <i>&#x1F4CB;</i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, in veniam ab voluptatem maxime minima.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="service-card">
+            <i>&#x1F34F;</i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, in veniam ab voluptatem maxime minima.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
